@@ -29,9 +29,9 @@ def greedy_fractional_knapsack(values, weights, W):
 values1 = [60, 100, 120]
 weights1 = [10, 20, 30]
 W1 = 50
-print("Maximum value in knapsack (Greedy Approach) =", greedy_fractional_knapsack(values1, weights1, W1))  # Output: 240
+print("Maximum value in knapsack =", greedy_fractional_knapsack(values1, weights1, W1))  # Output: 240
 
 values2 = [40, 100, 50, 60]
 weights2 = [20, 10, 40, 30]
 W2 = 50
-print("Maximum value in knapsack (Greedy Approach) =", greedy_fractional_knapsack(values2, weights2, W2))  # Output: 210
+print("Maximum value in knapsack =", greedy_fractional_knapsack(values2, weights2, W2))  # Output: 210
